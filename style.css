@@ -9,6 +9,7 @@ body {
 .header-container {
     display: flex;
     margin-top: 8px;
+    margin-bottom: 64px;
 }
 
 .header-logo {
@@ -27,4 +28,45 @@ a {
     text-decoration: none;
     color: #E5E7EB;
     font-weight: lighter;
+}
+
+.start-container {
+    display: flex;
+    color: #E5E7EB;
+    gap: 32px;
+    align-items: center;
+}
+
+.start-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.start-heading {
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.start-text {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.start-button {
+    border: none;
+    border-radius: 4px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 900;
+    align-self: flex-start;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.start-image {
+    width: 400px;
+    height: auto;
 }
